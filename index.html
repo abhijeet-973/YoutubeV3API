@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube</h1>
+
+        <div class="input-de">
+          <label for="videoId">Search on YouTube:</label>
+          <input type="text" id="videoId" placeholder="Enter Video_ID">
+          <button onclick="loadVideo()">Search</button>
+      </div>
+          <br>
+          <br>
+
+        <div class="video-wala">
+            <div id="player"></div>
+        </div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
